@@ -1,0 +1,147 @@
+body{
+    background-color: #F2EEE8;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #E38792;
+    width: 100%;
+    font-family: "Italianno", cursive;
+    font-style: normal;
+    color: #4E0A0B;
+    font-size: 30px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    background-color: #E38792;
+    color: #4E0A0B;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-family: "Volkhov", serif;
+}
+
+button{
+    border: none;
+    color: #4E0A0B;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F2EEE8;
+    font-family: "Volkhov", sherif;
+}
+
+.groupe{
+    color: #4E0A0B;
+    font-family: "Volkhov", serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+fieldset{
+  
+    margin-left: 30px;
+    border: none;
+    background-color: #E38792;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+p{
+    color: #4E0A0B;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #4E0A0B;
+}
+
+a:hover{
+    color: #F2EEE8;
+}
+
+.inscription{
+    font-family: "Cormorant",serif ;
+    font-size: 15px;
+}
+
+footer{
+    color: #4E0A0B;
+    background-color: #E38792;
+    padding: 20px;
+    font-family: "Cormorant", serif;
+}
+
+.contenufooter{
+    
+    gap: 1em;
+}
+
+.itemfooter{
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.separateur{
+    display: flex;
+    align-items: center;
+}
+
+.separateur::before,
+.separateur::after{
+content: '';
+flex-grow: 1;
+height: 1px;
+background-color: #4E0A0B;
+}
+
+@media(max-width: 700px){
+    .container{
+        padding: min(5em, 8%);
+    }
+
+    .item{
+        display: grid;  
+    }
+
+    .item img{
+        padding: min(5em, 8%);
+        background-size: cover;
+        width: 547px;
+    }
+
+}
