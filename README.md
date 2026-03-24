@@ -3,7 +3,7 @@ Projet d'Intégration Web :
 Description
 Ce projet est une démonstration de mes compétences en intégration web statique. L'objectif était de transformer une idée (ou une maquette) en une interface web fonctionnelle, esthétique et structurée, réalisée dans le cadre de ma formation au CNAM Paris.
 
-🛠️ Fonctionnalités
+ Fonctionnalités
 Structure Sémantique : Utilisation des balises HTML5 (header, section, footer, nav) pour un code propre et un bon référencement (SEO).
 
 Design Moderne : Mise en page soignée avec l'utilisation de Flexbox ou CSS Grid pour l'alignement des éléments.
